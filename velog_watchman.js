@@ -5,9 +5,9 @@ import { GoogleGenAI } from "@google/genai";
 import fetch from "node-fetch";
 
 // ==================== [ 필수 설정 정보 ] ====================
-const GEMINI_API_KEY = "AIzaSyBX2hA-4GoJkT05Nx_wS2ZLshiquI7eikk"; // 발급받은 Gemini API Key
+const GEMINI_API_KEY = "Your AI API Key"; // 발급받은 Gemini API Key
 const VELOG_TOKEN =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI0MDkwODEtZDdmZi00YTcxLTg5MTItM2EzNzhhYzQ0ZThmIiwiaWF0IjoxNzc4OTA5MzQyLCJleHAiOjE3Nzg5OTU3NDIsImlzcyI6InZlbG9nLmlvIiwic3ViIjoiYWNjZXNzX3Rva2VuIn0.iTakgelDp4fvuRUuAMXTUL7tKi4gkMolVab56SMFwzU"; // 브라우저 쿠키에서 복사한 Velog access_token
+  "Your Velog access_token"; // 브라우저 쿠키에서 복사한 Velog access_token
 
 // 사용자의 다운로드 폴더 경로 자동 지정
 const DOWNLOADS_DIR = path.join(
